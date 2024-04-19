@@ -24,7 +24,7 @@ on:
 jobs:
   build_debug:
     name: Build Debug
-    uses: ./.github/workflows/build.yml
+    uses: ./.github/workflows/build2.yml
     with:
       build_type: Debug
       is_qt_cached: true
